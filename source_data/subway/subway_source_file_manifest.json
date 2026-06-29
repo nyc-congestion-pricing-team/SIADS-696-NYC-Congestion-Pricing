@@ -1,0 +1,93 @@
+{
+  "mta_subway_hourly_ridership_2023_q1": {
+    "num_page_files": 26,
+    "size_bytes": 1096094735,
+    "size_mb": 1045.3173971176147,
+    "modified_time": 1780152005.4808717,
+    "row_count": 6268873
+  },
+  "mta_subway_hourly_ridership_2023_q2": {
+    "num_page_files": 26,
+    "size_bytes": 1121566900,
+    "size_mb": 1069.609546661377,
+    "modified_time": 1780152804.1611314,
+    "row_count": 6413089
+  },
+  "mta_subway_hourly_ridership_2023_q3": {
+    "num_page_files": 26,
+    "size_bytes": 1114935380,
+    "size_mb": 1063.2852363586426,
+    "modified_time": 1780153474.164171,
+    "row_count": 6375366
+  },
+  "mta_subway_hourly_ridership_2023_q4": {
+    "num_page_files": 27,
+    "size_bytes": 1141270465,
+    "size_mb": 1088.400330543518,
+    "modified_time": 1780154285.245373,
+    "row_count": 6528085
+  },
+  "mta_subway_hourly_ridership_2024_q1": {
+    "num_page_files": 26,
+    "size_bytes": 1126578963,
+    "size_mb": 1074.389422416687,
+    "modified_time": 1780155048.301735,
+    "row_count": 6445692
+  },
+  "mta_subway_hourly_ridership_2024_q2": {
+    "num_page_files": 27,
+    "size_bytes": 1146177230,
+    "size_mb": 1093.0797863006592,
+    "modified_time": 1780155832.867884,
+    "row_count": 6558471
+  },
+  "mta_subway_hourly_ridership_2024_q3": {
+    "num_page_files": 27,
+    "size_bytes": 1165364912,
+    "size_mb": 1111.3785858154297,
+    "modified_time": 1780156937.557233,
+    "row_count": 6692309
+  },
+  "mta_subway_hourly_ridership_2024_q4": {
+    "num_page_files": 30,
+    "size_bytes": 1263954828,
+    "size_mb": 1205.4012565612793,
+    "modified_time": 1780157940.628102,
+    "row_count": 7316041
+  },
+  "mta_subway_hourly_ridership_2025_q1": {
+    "num_page_files": 30,
+    "size_bytes": 1257383998,
+    "size_mb": 1199.1348247528076,
+    "modified_time": 1780158876.3741148,
+    "row_count": 7271588
+  },
+  "mta_subway_hourly_ridership_2025_q2": {
+    "num_page_files": 33,
+    "size_bytes": 1392772962,
+    "size_mb": 1328.251802444458,
+    "modified_time": 1780160085.5565143,
+    "row_count": 8095749
+  },
+  "mta_subway_hourly_ridership_2025_q3": {
+    "num_page_files": 32,
+    "size_bytes": 1369077618,
+    "size_mb": 1305.654161453247,
+    "modified_time": 1780161506.488925,
+    "row_count": 7974913
+  },
+  "mta_subway_hourly_ridership_2025_q4": {
+    "num_page_files": 29,
+    "size_bytes": 1216586143,
+    "size_mb": 1160.2269582748413,
+    "modified_time": 1780162486.427192,
+    "row_count": 7129531
+  },
+  "mta_subway_hourly_ridership_2026_q1": {
+    "num_page_files": 22,
+    "size_bytes": 884149498,
+    "size_mb": 843.1906681060791,
+    "modified_time": 1780168669.1549726,
+    "row_count": 5250000
+  }
+}

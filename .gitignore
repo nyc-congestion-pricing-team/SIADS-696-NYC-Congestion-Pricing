@@ -1,5 +1,4 @@
 pipeline_data/
-source_data/
 eda_outputs/
 deepnote_exports/
 
@@ -26,3 +25,6 @@ venv/
 .tmp/
 Reddit (OLD)/
 3.2.2 Explore Pre/
+source_data/MTA_Bridges_and_Tunnels_Hourly_Crossings__Beginning_2019_20260530.csv
+source_data/bus/mta_bus_route_segment_speeds_2023_2024.csv
+source_data/bus/mta_bus_route_segment_speeds_2025_plus.csv
