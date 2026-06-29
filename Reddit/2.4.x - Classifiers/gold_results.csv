@@ -1,0 +1,9 @@
+stage,model,macroF1[4],macroF1[3],bal_acc,macro_PR_AUC,CV macroF1 (5-fold)
+baseline,NaiveBayes,0.18,0.248,0.319,0.356,
+baseline,XGBoost,0.299,0.377,0.426,0.462,
+baseline,DistilRoBERTa,0.357,0.475,0.458,0.471,
+baseline,ModernBERT,0.366,0.434,0.503,0.535,
+tuned,NaiveBayes,0.315,0.368,0.418,0.379,0.43
+tuned,XGBoost,0.352,0.418,0.463,0.495,0.506
+tuned,DistilRoBERTa,0.361,0.454,0.443,0.469,0.507
+tuned,ModernBERT,0.308,0.408,0.426,0.505,0.566

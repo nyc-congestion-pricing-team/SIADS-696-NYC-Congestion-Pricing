@@ -1,0 +1,17 @@
+# CBDTP vLLM relevance/stance labeling pipeline (v1-v5 notebooks) - direct dependencies only.
+# Linux / WSL2 + CUDA, Python 3.12. Pinned to the versions used for the v5 run.
+# (transformers, tokenizers, huggingface-hub, safetensors, etc. install transitively via vllm + sentence-transformers.)
+
+# LLM inference (offline batched generation + guided decoding)
+vllm==0.22.1
+torch==2.11.0
+
+# Stage A semantic anchoring (embedding the posts/comments)
+sentence-transformers==5.5.1
+
+# data handling + parquet/SQL IO
+polars==1.41.2
+pandas==3.0.3
+pyarrow==24.0.0
+duckdb==1.5.3
+numpy==2.3.5

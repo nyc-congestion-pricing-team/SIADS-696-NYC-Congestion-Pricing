@@ -1,0 +1,7 @@
+# 2.7 Annotator Agreement — minimal deps (subset of the mads-m2-eval env)
+numpy
+pandas
+matplotlib
+scikit-learn
+statsmodels
+krippendorff

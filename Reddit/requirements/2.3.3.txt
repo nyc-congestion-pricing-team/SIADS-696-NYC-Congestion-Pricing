@@ -1,0 +1,21 @@
+# Golden test set + labeling/scoring UI — runtime requirements ONLY.
+#
+# This is the subset needed to (a) sample & render the human gold queue + the
+# browser labeling tool and (b) score the human labels. It deliberately EXCLUDES
+# the upstream Sonnet relabel batch — so NO anthropic, openpyxl, or scikit-learn.
+#
+# Maps to:
+#   build_gold_from_5k.py  -> duckdb, pandas, pyarrow   (sample + render the queue)
+#   adjudication_tool.html -> none (pure HTML/JS in the browser)
+#   score_relabel.py       -> pandas, pyarrow            (score + IAA + head-to-head)
+#   golden_set_demo.ipynb  -> pandas (+ a Jupyter runtime: ipykernel/IPython)
+#
+# Repo standard is uv + pyproject.toml (see CLAUDE.md); this file is for pip-only
+# environments (Deepnote / Colab / plain venv):
+#     python -m venv .venv && pip install -r requirements.txt
+# Pinned to the versions this code was built and run against.
+
+duckdb==1.5.3        # query the comment/post parquets to re-render context
+pandas==3.0.3        # dataframes + csv / parquet / jsonl I/O
+pyarrow==24.0.0      # pandas parquet engine (read_parquet / to_parquet)
+numpy==1.26.4        # numeric core (pandas dependency; pinned for reproducibility)

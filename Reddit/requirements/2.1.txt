@@ -1,0 +1,13 @@
+# Requirements for congestion_pricing_pipeline.ipynb
+# Python 3.12 (developed on 3.12.11)
+#
+# Install:  pip install -r requirements.txt
+#   (project standard is uv:  uv add requests pandas pyarrow ipykernel)
+#
+# Only third-party packages are listed; the notebook otherwise uses the standard
+# library (json, os, sys, time, datetime, pathlib).
+
+requests==2.34.2     # Arctic Shift API collection (initial crawl + patches)
+pandas==3.0.3        # DataFrames, JSONL reading, dedup, Parquet I/O
+pyarrow==24.0.0      # Parquet engine, canonical schemas, batched combine
+ipykernel==7.2.0     # run the notebook as a kernel in VSCode / Jupyter
