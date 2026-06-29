@@ -1,0 +1,6 @@
+
+folium
+matplotlib
+mapclassify
+altair==6.1.0
+umap-learn
