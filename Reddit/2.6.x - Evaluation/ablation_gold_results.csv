@@ -1,0 +1,4 @@
+model,macroF1[4],macroF1[3],bal_acc,macro_PR_AUC
+ModernBERT@256,0.374,0.462,0.496,0.48
+ModernBERT@512 (ref),0.308,0.408,0.426,0.505
+ModernBERT@1024,0.388,0.443,0.518,0.512

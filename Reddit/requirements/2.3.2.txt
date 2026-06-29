@@ -1,0 +1,20 @@
+# Dependencies for the Project Data - 7 (Relabel 5k) scripts:
+#   build_relabel_5k.py / build_relabel_5k_v2.py  -> duckdb, pandas, openpyxl
+#   relabel_batch.py / relabel_batch_v2.py        -> pandas, anthropic
+#   score_relabel.py / v1-v2 comparison           -> pandas, scikit-learn
+#   measure_generous.py                           -> duckdb, pandas
+#
+# Pinned to the versions installed in the project's uv environment (mads-rag).
+# NOTE: the canonical setup for this repo is uv + pyproject.toml (see CLAUDE.md);
+# this file is provided for pip-based reproduction only:
+#     python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt
+
+anthropic==0.109.1
+duckdb==1.5.3
+openpyxl==3.1.5
+pandas==3.0.3
+scikit-learn==1.8.0
+
+# transitive but pinned for reproducibility (parquet I/O + numeric core)
+numpy==1.26.4
+pyarrow==24.0.0

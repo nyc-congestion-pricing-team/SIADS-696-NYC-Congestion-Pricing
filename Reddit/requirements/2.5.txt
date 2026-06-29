@@ -1,0 +1,17 @@
+# Requirements for the Project Data - 12 - Analysis notebooks ONLY.
+# These are the packages the notebooks (02-07 + 01_data_prep) actually import,
+# pinned to the versions used in this session. Transitive dependencies are
+# resolved automatically by pip/uv and intentionally NOT listed here.
+#
+# Deepnote provides the notebook runtime, so Jupyter/ipykernel are NOT included.
+# To run locally from a bare env you'd additionally need: jupyter ipykernel
+#
+# Install:  uv pip install -r requirements.txt   (or: pip install -r requirements.txt)
+
+numpy==2.4.6
+pandas==3.0.3
+pyarrow==24.0.0        # parquet engine for pandas read_parquet / to_parquet
+matplotlib==3.11.0
+scipy==1.17.1          # scipy.stats: gaussian_kde, skew, kurtosis, ks_2samp
+statsmodels==0.14.6    # WLS (interrupted time series), proportions z-test, BH correction
+duckdb==1.5.4          # 01_data_prep only: fast scan of the 18.4M-row denominator files
