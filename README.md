@@ -44,6 +44,20 @@ Rather than relying on a single transportation system, we construct a unified mo
 # Repository Structure
 
 ```text
+Reddit/
+    2.1   - Data Collection
+    2.2.x - Relevance Filtering
+    2.3.x - Labeling
+    2.4.x - Classifiers
+    2.5.x - Analysis
+    2.6.x - Evaluation
+    2.7   - Inter-Annotator Agreement
+    data/           # samples only - see 2.1 for Data Collection information
+    models/         # placeholder - trained models too large to upload
+    requirements/   # requirements.txt files for the individual notebooks
+    README.md       # README detailing the Reddit analysis in greater detail.
+
+
 notebooks/
     1.x   Data ingestion and harmonization
     2.x   Reddit NLP pipeline
@@ -137,7 +151,7 @@ Transportation datasets include:
 - MTA Bridges & Tunnels Hourly Crossings
 - NYC Taxi Zone spatial reference layers
 
-Public discourse was collected from Reddit using the Arctic Shift API.
+Public discourse was collected from Reddit using the Arctic Shift API and their online Download Tool.
 
 ---
 
@@ -150,9 +164,9 @@ The Reddit pipeline evaluates multiple supervised classification models for stan
 - ModernBERT
 - DistilRoBERTa
 - XGBoost
-- Naive Bayes
+- Naive Bayes (ComplementNB)
 
-Models were evaluated using weak labels, human gold labels, and multiple classification metrics.
+Models were evaluated using weak labels (from Sonnet 4.6), human "gold" labels, multiple classification metrics, and ablation and sensitivity analysis.
 
 ## Unsupervised Learning
 
