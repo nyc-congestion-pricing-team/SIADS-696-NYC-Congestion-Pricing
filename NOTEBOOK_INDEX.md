@@ -853,3 +853,18 @@ Evaluate the retained anomaly package for recurrence, persistence, consensus beh
 * External validation using NYC crash events becomes part of the project's anomaly-evaluation framework.
 
 * Positive-direction anomalies become the primary downstream anomaly package for interpretation and social integration workflows.
+
+---
+
+# Final Analysis.ipynb
+
+Final joint analysis of combined Mobility and Stance datasets.
+
+## Key Findings
+
+* Periods with elevated mobility anomalies generally coincide with increased Reddit discussion, indicating that transportation disruptions may draw greater public attention even if they are not the sole driver of online conversations
+* Mobility disruptions do not appear to substantially alter overall public sentiment. Instead, they occur alongside a relatively stable distribution of opinions toward congestion pricing.
+* The implementation of congestion pricing did not produce a major long-term change in Reddit sentiment, suggesting that public opinion remained relatively stable after the policy took effect.
+* Mobility anomalies continued to occur throughout the study period, with no clear evidence that congestion pricing substantially increased or decreased the overall frequency of detected mobility disruptions.
+* Major mobility disruptions do not appear to meaningfully shift public opinion regarding congestion pricing. People's views remain largely consistent even during significant transportation events.
+* Unlike sentiment, discussion volume responds strongly to major mobility events. Transportation disruptions appear to increase public attention and participation without fundamentally changing public opinion.
